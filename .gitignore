@@ -1,0 +1,7 @@
+# Cache directories
+.cache/
+*.cache
+
+# Log files
+*.log
+
