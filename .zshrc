@@ -106,22 +106,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
-# Created by `pipx` on 2024-11-09 17:15:50
-export PATH="$PATH:/Users/ck-carv/.local/bin"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/ck-carv/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/ck-carv/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/ck-carv/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/ck-carv/google-cloud-sdk/completion.zsh.inc'; fi
 
 # For composer
 export PATH="$HOME/.composer/vendor/bin:$PATH"
